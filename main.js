@@ -2,9 +2,6 @@ $(document).on('ready', function() {
 
 	$('.first-button').click(function() {
 		console.log('You gotta fight')
-	})
-
-	$('.first-button').click(function() {
 		$('.first-section').append('<p>You gotta fight</p>')
 	})
 
